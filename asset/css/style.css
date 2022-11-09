@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:wght@200;300;400;500;600;700&family=Train+One&family=Ubuntu:wght@400;500;700&display=swap');
+
+
+:root{
+    --sidebar-width:240px;
+    --log-text:'monoton';
+    --normal-text:'ubuntu';
+    --h1-text:'poppins';
+    --color-main:rgb(250, 51, 51);
+    --text-color:rgb(46, 45, 45);
+    --border-color:rgba(241, 93, 93, 0.966);
+    --white-color:white;
+    --body-color:rgb(223, 219, 219);
+    --black-color:black;
+}
+.cus-1{
+    border: none;
+    background-color: transparent;
+}
+.cus-1:hover{
+    color: red;
+}
+
+
+.r-color{
+    color: red;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+}
+/* Genral Edit Start */
+body{
+    background-color: var(--body-color);
+    font-family: var(--text-color);
+    font-family: var(--h1-text);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--h1-text),sans-serif;
+    font-weight: 700;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.4s ease;
+}
+img{
+    width: 100%;
+}
+
+.btn{
+    padding: 12px 28px;
+    font-weight: 600;
+}
+.btn-brand{
+    background-color: var(--border-color);
+    border-color: var(--border-color);
+}
+.btn-brand:hover{
+    color: rgb(32, 32, 32);
+}
+
+.serv-bg{
+    background: linear-gradient(rgba(255, 255, 255, 0.747),rgba(255, 255, 255, 0.7)),url('../img/drew-beamer-5DD7-L4A4Uw-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+
+.link-custom{
+    font-weight: 700;
+    position: relative;
+
+}
+.link-custom::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: var(--color-main);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+
+}
+.link-custom:hover::after{
+    width: 100%;
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px ;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(211, 208, 208, 0.233);
+}
+
+
+.nav-bar-icon{
+    margin-right: 21px;
+    font-size: 25px;
+   
+}
+
+/* Genral Edit End */
+
+/* Main Conterner Start  */
+
+/* NAv BAr start */
+.navbar{
+    background-color: var(--border-color);
+}
+ .navbar-brand{
+    font-family: 'ubuntu';
+    font-weight: 800;
+
+}
+.navbar .nav-link{
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    
+}
+
+.navbar .nav-link{
+    padding-top:10px;
+}
+.navbar .nav-link:hover{
+    color: rgb(247, 247, 243);
+}
+
+.navbar .nav-link.active{
+    color: white;
+}
+#navimg{
+    height: 210px;
+    width: 210px;
+}
+ /* NAv BAr start */ 
+
+.link-custom1{
+    font-weight: 700;
+    position: relative;
+
+}
+.link-custom1::after{
+    content: "";
+    width: 0%;
+    height: 5px;
+    background-color: var(--white-color);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: all 0.4s;
+
+}
+.link-custom1:hover::after{
+    width: 100%;
+}
+
+/* Home SEction  start */
+#home{
+    background-image: url('../img/lum3n--RBuQ2PK_L8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home .col-text{
+    font-weight: 700;
+}
+#home span{
+    color: var(--color-main);
+}
+#home p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+#home .link-custom{
+    font-size: 20px;
+}
+#home .link-custom:hover{
+    color: var(--text-color);
+}
+
+#home .link-custom span{
+    font-size: 40px;
+    color: green;
+}
+
+#home .btn-2:hover{
+    background-color: transparent;
+}
+
+
+/* Home SEction  end */
+
+/* About section start */
+#about{
+    background:url('../img/joanna-kosinska-8gYCAkMuvsY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about .about-info{
+    font-size: 22px;
+}
+#about .s-icons {
+    font-size: 40px;
+}
+#about .s-icons a{
+    color: rgb(78, 78, 78);
+}
+#about .s-icons .facebook:hover{
+    color: rgb(0, 0, 247);
+    transition: all 0.3s ease;
+}
+#about .s-icons .instagram:hover
+{
+    color: var(--color-main);
+    transition: all 0.3s ease;
+}
+#about .s-icons .github:hover
+{
+    color: var(--black-color);
+    transition: all 0.3s ease;
+}
+#about .s-icons .linkedin:hover
+{
+    color: blue;
+    transition: all 0.3s ease;
+}
+#about .hireme{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-color);
+    margin-top: 15px;
+    
+}
+#about .hir{
+    font-weight: 600;
+    color: rgb(27, 27, 27);
+    margin-bottom: 10px;
+}
+#about .hir:hover{
+    color:red;
+}
+#skill{
+    background: rgb(221, 218, 218);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color: rgb(43, 42, 42);
+}
+
+#skill  .s-line{
+    height: 10px;
+    width: 40px;
+    color: red;
+    margin-bottom: 40px;
+}
+
+
+
+#skill .per .inner-div{
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#about .edu{
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7))url('../img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#about .edu-date{
+    margin-left: 20px;
+    font-weight: 700;
+    color: rgb(43, 42, 42);
+}
+#about .edu-line{
+    width: 30px;
+}
+#about .edu-list{
+    color: rgb(56, 55, 55);
+}
+#about .edu-li:hover{
+    color: black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+#skill .per .inner-div .p-hard {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(202, 200, 200);
+    border-radius: 10px;
+}
+#skill .per .inner-div .p-hard .h90{
+    width: 90%;
+    background-color: red;
+    height: 8px;
+    border-radius: 10px;
+}
+#p-s{
+    height: 8px;
+    width: 100%;
+    background-color: rgb(202, 200, 200);
+    border-radius: 10px;
+}
+#p-s .s95{
+    width: 95%;
+    background-color: red;
+    height: 8px;
+    border-radius: 10px;   
+}
+#bstp{
+    height: 8px;
+    width: 100%;
+    background-color: rgb(202, 200, 200);
+    border-radius: 10px;
+}
+#bstp .b90{
+    width: 90%;
+    background-color: red;
+    height: 8px;
+    border-radius: 10px; 
+}
+#js{
+    height: 8px;
+    width: 100%;
+    background-color: rgb(202, 200, 200);
+    border-radius: 10px;   
+}
+#js .js65{
+    width: 65%;
+    background-color: red;
+    height: 8px;
+    border-radius: 10px; 
+}
+#css {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(202, 200, 200);
+    border-radius: 10px; 
+}
+#css .cs90{
+    width: 90%;
+    background-color: red;
+    height: 8px;
+    border-radius: 10px;  
+}
+#ht{
+    height: 8px;
+    width: 100%;
+    background-color: rgb(202, 200, 200);
+    border-radius: 10px;
+}
+#ht .ht99{
+    width: 99%;
+    background-color: red;
+    height: 8px;
+    border-radius: 10px;  
+}
+
+
+
+
+
+/* About section End */
+
+/* Section services */
+
+#services{
+    background:linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url('../img/jeshoots-com-pUAM5hPaCRI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#services .service{
+    border-radius: 10px;
+    box-shadow: 0px 0 10px 3px rgb(219, 218, 218);
+
+    transition: all 0.5s;
+}
+
+#services .service:hover{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0 8px 5px rgb(189, 188, 188);
+
+}
+.ser-icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(255, 0, 0, 0.70),rgba(255, 0, 0, 0.70)),url(../img/newbg.jpg);
+    background-size: cover;
+    background-position: center;;
+    font-size: 32px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Section services End */
+
+/* Section portfolio */
+#portfolio{
+    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.4)),url('../img/newbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cc{
+    margin-bottom: 15px;
+}
+#cc .resume-img {
+    height: 300px;
+}
+
+#cc .card-custom{
+    box-shadow: 0px 0 8px 5px rgb(189, 188, 188);
+    background-color: rgba(224, 221, 221, 0.7);
+    transition: all 0.5s;
+    padding: none;
+    border-radius: 10px;
+}
+#cc .card-custom:hover{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0 8px 5px rgb(189, 188, 188);
+}
+#cc img{
+    padding: none;
+   
+
+}
+#cc .card-custom-img{
+    overflow: hidden;
+}
+#cc .card-custom-img img{
+    transition: all 0.4s ease;
+}
+#cc:hover .card-custom-img img{
+    transform: scale(1.1);
+}
+
+
+/* Section portfolio End */
+
+
+
+/* Contact Me */
+
+#contact{
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url('../img/contact\ me.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contact .r-color span{
+    color: rgb(14, 13, 13);
+}
+#contact .map iframe{
+    height: 200px;
+    width: 100%;
+}
+#contact .map-hr{
+        height:0px;
+        border: none;
+        border-top: 7px solid rgb(0, 0, 0);
+
+}
+
+#contact-form-add{
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    background: rgb(240, 238, 238)
+}
+
+#contact .cont-item{
+    
+    text-align: center;
+    padding: 10px;
+}
+#contact .cont-item i{
+    font-size: 30px;
+    color: red;
+    padding-top: 20px;
+
+}
+#contact .cont-item .contact-text{
+    color: rgb(63, 62, 62);
+}
+
+#contact-li{
+    color: black;
+    border: 5px black solid;
+    width: 50%;
+    border-radius: 10px;
+}
+/* #contact-row:hover{
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    background: rgb(240, 238, 238);
+} */
+#form-contact{
+    padding-bottom: 30px;
+}
+#contact .form-con h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact .form-con p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#contact .form-con .contact-line-hr{
+    width: 30%;
+    margin: auto;
+    
+}
+#form-contact .text-input label{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(43, 43, 43);
+
+}
+#form-contact .btn-4{
+    height: 40px;
+    width: 130px;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 5px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid red;
+    font-size: 20px;
+    color: white;
+}
+
+#form-contact .btn-4:hover{
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+#submit-icon{
+    margin-right: 10px;
+}
+
+#form-contact form .form-label{
+    font-size: 20px;
+    color: rgb(102, 101, 101);
+
+}
+#form-contact form input[type=text],
+#form-contact form input[type=email],
+#form-contact form input[type=number]{
+    background-color: transparent;
+}
+.form-control:focus {
+    box-shadow: none;
+    border: none;
+}
+
+#form-contact form input[type=text]:hover,
+#form-contact form input[type=email]:hover,
+#form-contact form input[type=number]:hover{
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: none;
+}
+#form-contact form textarea{
+    resize: none;background-color: transparent;
+}
+#form-contact form textarea:hover{
+    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: none;
+}
+
+
+
+
+
+
+
+/* Contact Me End */
+/* Main Conterner End */
+/* Footer Sectio */
+
+#footer{
+    align-items: center;
+    text-align: center;
+}
+#footer .footer-h5{
+    font-size: 25px;
+    color: red;
+}
+
+#intouch{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#footer-icon-fa-col{
+    margin-left: -10px;
+}
+#footer-fa-icon{
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(109, 108, 108);
+}
+
+#footer-face:hover{
+    color: blue;
+    transition: all 0.3s ease;
+}
+#footer-insta:hover{
+    color: red;
+    transition: all 0.3s ease;
+}
+#footer-git:hover{
+    color: black;
+    transition: all 0.3s ease;
+}
+#footer-linke:hover{
+    color: blue;
+    transition: all 0.3s ease;
+}
+#intouch .copy-right{
+    font-size: 20px;
+}
+#intouch h6 span{
+    color: red;
+}
+
+
+/* Responsive */
+
+@media(min-width:992px){
+    .navbar{
+        min-height: 100vh;
+        width: var(--sidebar-width);
+        background: linear-gradient(rgba(255, 0, 0, 0.85),rgba(255, 0, 0, 0.85)),url(../img/newbg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+     #navimg{
+        border: 5px solid white;
+    }
+    .navbar li{
+        margin-bottom: 10px;
+    }
+    /* Main Containt */
+
+    #main{
+        padding-left: var(--sidebar-width);
+       
+    }
+    .link-custom1{
+        font-weight: 700;
+        position: relative;
+    
+    }
+    .link-custom1::after{
+        content: "";
+        width: 0%;
+        height: 5px;
+        background-color: var(--white-color);
+        position: absolute;
+        left: 0;
+        top: 110%;
+        transition: all 0.4s;
+    
+    }
+    .link-custom1:hover::after{
+        width: 100%;
+    }
+
+    .green{
+        margin-left: -140px;
+    }
+   
+    #footer{
+        padding-left: var(--sidebar-width);
+        margin: none;
+        margin-right: -110px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-bottom: -20px;
+    }
+    
+}
+
+
+@media(min-width:768px){
+    .ser-icon{
+        margin: auto;
+     }
+ 
+     .ser-body{
+         text-align: center;
+     }
+     #about .padd-1{
+        padding: 0px;
+        font-size: 40px;
+    }
+
+    /* A LOnks */
+
+    #footer label{
+        margin-left: 30px;
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+    #footer label:hover{
+        color: red;
+    }
+
+    /* Icons  */
+    #footer-col-sm{
+        margin-left: -20px;
+    }
+    #footer .footer-icon{
+        font-size: 25px;
+        margin-left:  34px;
+        margin-top: 10px;
+        color: rgb(58, 58, 58);
+        transition: all 0.3s ease;
+    }
+    #footer .footer-icon:hover{
+        color: rgb(248, 88, 88);
+    }
+    #footer .footer-h5{
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:800px){
+
+    #navbar-ul li{
+        font: 18px;
+        text-align: center;
+        margin-bottom: 5px;
+        padding-bottom: 0px;
+    }
+    .ser-icon{
+       margin: auto;
+    }
+
+    .ser-body{
+        text-align: center;
+    }
+
+    .link-custom1{
+        font-weight: 700;
+        position: relative;
+    
+    }
+    .link-custom1::after{
+        content: "";
+        width: 0%;
+        height: 5px;
+        background-color: var(--white-color);
+        left: 43%;
+        top: 110%;
+        transition: all 0.4s;
+    
+    }
+    .link-custom1:hover::after{
+        width: 13%;
+        margin: auto;
+    }
+
+    #contact-add{
+        margin-top: 30px;
+    }
+
+    #raj-a{
+        background-color: rgb(230, 230, 230);
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        color: black;
+        }
+        
+        
+        #raj{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        #footer-col-sm{
+            margin-left: -20px;
+        }
+        #footer .footer-h5{
+            margin-top: 10px;
+        }
+        
+        #footer .footer-icon{
+            font-size: 25px;
+            margin-left: 34px;
+            margin-top: 10px;
+            color: rgb(58, 58, 58);
+            transition: all 0.3s ease;
+        }
+        #footer .footer-icon:hover{
+            color: rgb(248, 88, 88);
+        }
+
+   
+    
+  
+}
+
+
+
+
