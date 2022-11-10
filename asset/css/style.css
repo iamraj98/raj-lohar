@@ -824,6 +824,9 @@ img{
         #footer .footer-icon:hover{
             color: rgb(248, 88, 88);
         }
+        #intouch .copy-right span{
+            display: none;
+        }
 
    
     
