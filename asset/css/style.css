@@ -165,6 +165,15 @@ img{
     width: 100%;
 }
 
+#header-me-img{
+    height: 50px;
+    width: 50px;
+}
+#heaer-me-name{
+    font-weight: 700;
+    text-align: start;
+}
+
 /* Home SEction  start */
 #home{
     background-image: url('../img/lum3n--RBuQ2PK_L8-unsplash.jpg');
@@ -709,6 +718,36 @@ img{
 
 
 @media(min-width:768px){
+    #navbar-ul{
+        padding-bottom: 10px;
+    }
+    
+    #navbar-ul li{
+        font: 18px;
+        text-align: center;
+        margin-bottom: 5px;
+        padding-bottom: 0px;
+    }
+    .link-custom1{
+        font-weight: 700;
+        position: relative;
+        
+    
+    }
+    .link-custom1::after{
+        content: "";
+        width: 0%;
+        height: 5px;
+        background-color: var(--white-color);
+        left: 43%;
+        top: 110%;
+        transition: all 0.4s;
+    
+    }
+    .link-custom1:hover::after{
+        width: 13%;
+        margin: auto;
+    }
     .ser-icon{
         margin: auto;
      }
@@ -719,6 +758,9 @@ img{
      #about .padd-1{
         padding: 0px;
         font-size: 40px;
+    }
+    #header-me-img{
+        border: 3px solid rgb(255, 255, 255);
     }
 
     /* A LOnks */
@@ -753,6 +795,9 @@ img{
 
 }
 @media(max-width:800px){
+    #navbar-ul{
+        padding-bottom: 10px;
+    }
 
     #navbar-ul li{
         font: 18px;
@@ -791,15 +836,13 @@ img{
     #contact-add{
         margin-top: 30px;
     }
-
+    #header-me-img{
+        border: 3px solid rgb(255, 255, 255);
+    }
     #raj-a{
-        background-color: rgb(230, 230, 230);
-        padding: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
         border-radius: 50%;
         transition: all 0.3s ease;
-        color: black;
+
         }
         
         
