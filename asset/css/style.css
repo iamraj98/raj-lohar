@@ -570,6 +570,7 @@ img{
 }
 #submit-icon{
     margin-right: 10px;
+    padding: 0px;
 }
 
 #form-contact form .form-label{
