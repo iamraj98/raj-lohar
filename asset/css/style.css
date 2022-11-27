@@ -6,7 +6,7 @@
     --log-text:'monoton';
     --normal-text:'ubuntu';
     --h1-text:'poppins';
-    --color-main:rgb(250, 51, 51);
+    --color-main:rgb(245, 88, 88);
     --text-color:rgb(46, 45, 45);
     --border-color:rgba(241, 93, 93, 0.966);
     --white-color:white;
@@ -18,12 +18,12 @@
     background-color: transparent;
 }
 .cus-1:hover{
-    color: red;
+    color: gray;
 }
 
 
 .r-color{
-    color: red;
+    color: rgb(33, 137, 197);
 }
 
 .navbar-toggler,
@@ -57,8 +57,9 @@ img{
     font-weight: 600;
 }
 .btn-brand{
-    background-color: var(--border-color);
-    border-color: var(--border-color);
+    background-color: rgb(37, 51, 66);
+    color: white;
+
 }
 .btn-brand:hover{
     color: rgb(32, 32, 32);
@@ -80,7 +81,7 @@ img{
     content: "";
     width: 0%;
     height: 3px;
-    background-color: var(--color-main);
+    background-color: rgb(37, 51, 66);;
     position: absolute;
     left: 0;
     top: 110%;
@@ -115,7 +116,7 @@ img{
 
 /* NAv BAr start */
 .navbar{
-    background-color: var(--border-color);
+    background-color: rgb(167, 167, 167);
 }
  .navbar-brand{
     font-family: 'ubuntu';
@@ -124,7 +125,7 @@ img{
 }
 .navbar .nav-link{
     font-weight: 700;
-    color: rgb(0, 0, 0);
+    color: rgb(31, 31, 30);
     text-transform: uppercase;
     
 }
@@ -133,11 +134,11 @@ img{
     padding-top:10px;
 }
 .navbar .nav-link:hover{
-    color: rgb(247, 247, 243);
+    color: black;
 }
 
 .navbar .nav-link.active{
-    color: white;
+    color: black;
 }
 #navimg{
     height: 210px;
@@ -159,6 +160,7 @@ img{
     left: 0;
     top: 110%;
     transition: all 0.4s;
+    border-radius: 3px;
 
 }
 .link-custom1:hover::after{
@@ -176,15 +178,16 @@ img{
 
 /* Home SEction  start */
 #home{
-    background-image: url('../img/lum3n--RBuQ2PK_L8-unsplash.jpg');
+    background-image:linear-gradient(rgba(224, 224, 224, 0.7),rgba(226, 226, 226, 0.7)), url('../img/david-van-dijk-3LTht2nxd34-unsplash.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:125% 100.1%;
+
 }
 #home .col-text{
     font-weight: 700;
 }
 #home span{
-    color: var(--color-main);
+    color: rgb(37, 51, 66);
 }
 #home p{
     font-size: 20px;
@@ -212,7 +215,7 @@ img{
 
 /* About section start */
 #about{
-    background:url('../img/joanna-kosinska-8gYCAkMuvsY-unsplash.jpg');
+    background:linear-gradient(rgba(224, 224, 224, 0.2),rgba(226, 226, 226, 0.2)),url('../img/joanna-kosinska-8gYCAkMuvsY-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -259,7 +262,7 @@ img{
     margin-bottom: 10px;
 }
 #about .hir:hover{
-    color:red;
+    color:rgb(37, 51, 66);
 }
 #skill{
     background: rgb(221, 218, 218);
@@ -267,12 +270,16 @@ img{
     background-size: cover;
     border-radius: 10px;
     color: rgb(43, 42, 42);
+    box-shadow:-6px -6px 10px -1px rgba(255,255,255,0.7),6px 6px 10px -1px rgba(0,0,0,0.15);
+}
+#skill .s-head{
+  color:   rgb(33, 137, 197);  
 }
 
 #skill  .s-line{
     height: 10px;
     width: 40px;
-    color: red;
+    color:  rgb(37, 51, 66);
     margin-bottom: 40px;
 }
 
@@ -286,7 +293,7 @@ img{
 }
 #about .edu{
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7))url('../img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
+    background: linear-gradient(rgba(243, 241, 241, 0.9),rgba(238, 235, 235, 0.9)),url('../img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -320,7 +327,7 @@ img{
 }
 #skill .per .inner-div .p-hard .h90{
     width: 90%;
-    background-color: red;
+    background-color:  rgb(37, 51, 66);
     height: 8px;
     border-radius: 10px;
 }
@@ -332,7 +339,7 @@ img{
 }
 #p-s .s95{
     width: 95%;
-    background-color: red;
+    background-color:  rgb(37, 51, 66);
     height: 8px;
     border-radius: 10px;   
 }
@@ -344,7 +351,7 @@ img{
 }
 #bstp .b90{
     width: 90%;
-    background-color: red;
+    background-color:  rgb(37, 51, 66);
     height: 8px;
     border-radius: 10px; 
 }
@@ -356,7 +363,7 @@ img{
 }
 #js .js65{
     width: 65%;
-    background-color: red;
+    background-color:  rgb(37, 51, 66);
     height: 8px;
     border-radius: 10px; 
 }
@@ -368,7 +375,7 @@ img{
 }
 #css .cs90{
     width: 90%;
-    background-color: red;
+    background-color:  rgb(37, 51, 66);
     height: 8px;
     border-radius: 10px;  
 }
@@ -380,7 +387,7 @@ img{
 }
 #ht .ht99{
     width: 99%;
-    background-color: red;
+    background-color:  rgb(37, 51, 66);
     height: 8px;
     border-radius: 10px;  
 }
@@ -417,7 +424,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(rgba(255, 0, 0, 0.70),rgba(255, 0, 0, 0.70)),url(../img/newbg.jpg);
+    background:linear-gradient(rgba(53, 52, 52, 0.7),rgba(53, 52, 52, 0.7)),url(../img/newbg.jpg);
     background-size: cover;
     background-position: center;;
     font-size: 32px;
@@ -505,7 +512,7 @@ img{
 }
 #contact .cont-item i{
     font-size: 30px;
-    color: red;
+    color:  rgb(33, 137, 197);;
     padding-top: 20px;
 
 }
@@ -550,7 +557,7 @@ img{
 #form-contact .btn-4{
     height: 40px;
     width: 130px;
-    background-color: red;
+    background-color: rgb(33, 137, 197);
     text-align: center;
     justify-content: center;
     padding: 10px;
@@ -558,7 +565,6 @@ img{
     margin: auto;
     margin-top: 10px;
     border-radius: 10px;
-    border: 2px solid red;
     font-size: 20px;
     color: white;
 }
@@ -566,7 +572,7 @@ img{
 #form-contact .btn-4:hover{
     background-color: transparent;
     border: none;
-    color: red;
+    color: rgb(20, 20, 20);
 }
 #submit-icon{
     margin-right: 10px;
@@ -591,15 +597,13 @@ img{
 #form-contact form input[type=text]:hover,
 #form-contact form input[type=email]:hover,
 #form-contact form input[type=number]:hover{
-    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
-    border: none;
+    border: 2px solid rgb(172, 171, 171)
 }
 #form-contact form textarea{
     resize: none;background-color: transparent;
 }
 #form-contact form textarea:hover{
-    box-shadow:6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
-    border: none;
+    border: 2px solid rgb(172, 171, 171);
 }
 
 
@@ -618,7 +622,7 @@ img{
 }
 #footer .footer-h5{
     font-size: 25px;
-    color: red;
+    color:  rgb(33, 137, 197);
 }
 
 #intouch{
@@ -654,10 +658,9 @@ img{
 #intouch .copy-right{
     font-size: 20px;
 }
-#intouch h6 span{
-    color: red;
+#footer-span1{
+    color: rgb(33, 137, 197); 
 }
-
 
 /* Responsive */
 
@@ -665,7 +668,7 @@ img{
     .navbar{
         min-height: 100vh;
         width: var(--sidebar-width);
-        background: linear-gradient(rgba(255, 0, 0, 0.85),rgba(255, 0, 0, 0.85)),url(../img/newbg.jpg);
+        background: linear-gradient(rgba(179, 178, 178, 0.85),rgba(179, 178, 178, 0.85)),url(../img/newbg.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -681,12 +684,12 @@ img{
         padding-left: var(--sidebar-width);
        
     }
-    .link-custom1{
+    .line-custom1{
         font-weight: 700;
         position: relative;
     
     }
-    .link-custom1::after{
+    .line-custom1::after{
         content: "";
         width: 0%;
         height: 5px;
@@ -697,8 +700,8 @@ img{
         transition: all 0.4s;
     
     }
-    .link-custom1:hover::after{
-        width: 100%;
+    .line-custom1:hover::after{
+        width: 110%;
     }
 
     .green{
