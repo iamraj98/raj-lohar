@@ -66,7 +66,7 @@ img{
 }
 
 .serv-bg{
-    background: linear-gradient(rgba(255, 255, 255, 0.747),rgba(255, 255, 255, 0.7)),url('../img/drew-beamer-5DD7-L4A4Uw-unsplash.jpg');
+    background: linear-gradient(rgba(243, 241, 241, 0.7),rgba(243, 241, 241, 0.7)),url('../img/drew-beamer-5DD7-L4A4Uw-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat ;
 }
@@ -116,7 +116,7 @@ img{
 
 /* NAv BAr start */
 .navbar{
-    background-color: rgb(167, 167, 167);
+    background-color:  rgb(33, 137, 197);
 }
  .navbar-brand{
     font-family: 'ubuntu';
@@ -215,7 +215,7 @@ img{
 
 /* About section start */
 #about{
-    background:linear-gradient(rgba(224, 224, 224, 0.2),rgba(226, 226, 226, 0.2)),url('../img/joanna-kosinska-8gYCAkMuvsY-unsplash.jpg');
+    background:linear-gradient(rgba(202, 201, 201, 0.2),rgba(199, 199, 199, 0.2)),url('../img/joanna-kosinska-8gYCAkMuvsY-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -270,7 +270,10 @@ img{
     background-size: cover;
     border-radius: 10px;
     color: rgb(43, 42, 42);
-    box-shadow:-6px -6px 10px -1px rgba(255,255,255,0.7),6px 6px 10px -1px rgba(0,0,0,0.15);
+    box-shadow:  -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1),
+    inset -5px -5px 5px rgb(255,255,255,0.2),
+     inset 5px 5px 5px rgb(0,0,0,0.1);
 }
 #skill .s-head{
   color:   rgb(33, 137, 197);  
@@ -286,13 +289,19 @@ img{
 
 
 #skill .per .inner-div{
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    box-shadow:  -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1),
+    inset -5px -5px 5px rgb(255,255,255,0.2),
+     inset 5px 5px 5px rgb(0,0,0,0.1);
     padding: 10px;
     border-radius: 10px;
     text-align: center;
 }
 #about .edu{
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
+    box-shadow:  -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1),
+    inset -5px -5px 5px rgb(255,255,255,0.2),
+     inset 5px 5px 5px rgb(0,0,0,0.1);
     background: linear-gradient(rgba(243, 241, 241, 0.9),rgba(238, 235, 235, 0.9)),url('../img/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -401,21 +410,24 @@ img{
 /* Section services */
 
 #services{
-    background:linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url('../img/jeshoots-com-pUAM5hPaCRI-unsplash.jpg');
+    background:linear-gradient(rgba(231, 231, 231, 0.7),rgba(228, 228, 228, 0.7)),url('../img/jeshoots-com-pUAM5hPaCRI-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 #services .service{
     border-radius: 10px;
-    box-shadow: 0px 0 10px 3px rgb(219, 218, 218);
-
-    transition: all 0.5s;
+    box-shadow:  -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 #services .service:hover{
     border-radius: 10px;
     border: none;
-    box-shadow: 0px 0 8px 5px rgb(189, 188, 188);
+    box-shadow:  -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1),
+    inset -5px -5px 5px rgb(255,255,255,0.2),
+     inset 5px 5px 5px rgb(0,0,0,0.1);
 
 }
 .ser-icon{
@@ -424,7 +436,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(rgba(53, 52, 52, 0.7),rgba(53, 52, 52, 0.7)),url(../img/newbg.jpg);
+    background:linear-gradient(rgba(68, 170, 253, 0.7),rgba(68, 170, 253, 0.7)),url(../img/newbg.jpg);
     background-size: cover;
     background-position: center;;
     font-size: 32px;
@@ -436,7 +448,7 @@ img{
 
 /* Section portfolio */
 #portfolio{
-    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.4)),url('../img/newbg.jpg');
+    background: linear-gradient(rgba(211, 210, 210, 0.7),rgba(209, 208, 208, 0.7)),url('../img/newbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -448,7 +460,10 @@ img{
 }
 
 #cc .card-custom{
-    box-shadow: 0px 0 8px 5px rgb(189, 188, 188);
+    box-shadow:  -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1),
+    inset -5px -5px 5px rgb(255,255,255,0.2),
+     inset 5px 5px 5px rgb(0,0,0,0.1);
     background-color: rgba(224, 221, 221, 0.7);
     transition: all 0.5s;
     padding: none;
@@ -457,7 +472,8 @@ img{
 #cc .card-custom:hover{
     border-radius: 10px;
     border: none;
-    box-shadow: 0px 0 8px 5px rgb(189, 188, 188);
+    box-shadow:  inset -5px -5px 5px rgb(255,255,255,0.2),
+    inset 5px 5px 5px rgb(0,0,0,0.1);
 }
 #cc img{
     padding: none;
@@ -482,7 +498,7 @@ img{
 /* Contact Me */
 
 #contact{
-    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)),url('../img/contact\ me.jpg');
+    background: linear-gradient(rgba(209, 209, 209, 0.7),rgba(206, 205, 205, 0.7)),url('../img/contact\ me.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -501,8 +517,13 @@ img{
 }
 
 #contact-form-add{
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);
-    background: rgb(240, 238, 238)
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1),
+    inset -5px -5px 5px rgb(255,255,255,0.2),
+     inset 5px 5px 5px rgb(0,0,0,0.1);    background: rgb(240, 238, 238);
+     border-radius: 15px;
+     background-color: rgba(209, 209, 209);
+     
 }
 
 #contact .cont-item{
@@ -588,6 +609,10 @@ img{
 #form-contact form input[type=email],
 #form-contact form input[type=number]{
     background-color: transparent;
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1);
+    border: none;
+    transition: all 0.2s ease-in;
 }
 .form-control:focus {
     box-shadow: none;
@@ -597,13 +622,24 @@ img{
 #form-contact form input[type=text]:hover,
 #form-contact form input[type=email]:hover,
 #form-contact form input[type=number]:hover{
-    border: 2px solid rgb(172, 171, 171)
+   box-shadow:  -8px -8px 15px rgb(255,255,255,0.2),
+   8px 8px 15px rgb(0,0,0,0.1),
+   inset -5px -5px 5px rgb(255,255,255,0.2),
+    inset 5px 5px 5px rgb(0,0,0,0.1);
 }
 #form-contact form textarea{
     resize: none;background-color: transparent;
+    box-shadow: -8px -8px 15px rgb(255,255,255,0.2),
+    8px 8px 15px rgb(0,0,0,0.1);
+    border: none;
+    transition: all 0.2s ease-in;
 }
 #form-contact form textarea:hover{
-    border: 2px solid rgb(172, 171, 171);
+    border: none;
+    box-shadow:  -8px -8px 15px rgb(255,255,255,0.2),
+   8px 8px 15px rgb(0,0,0,0.1),
+   inset -5px -5px 5px rgb(255,255,255,0.2),
+    inset 5px 5px 5px rgb(0,0,0,0.1);
 }
 
 
